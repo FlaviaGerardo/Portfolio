@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+  /* HEADER */
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  padding-left: 136px;
+  padding-right: 175px;
+}
+
+.logo{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logoHeader{
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #51A9A0;
+}
+
+
+.navBar ul {
+    gap: 88px;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar a {
+    color: rgba(104, 104, 104, 1);
+    ;
+    text-decoration: none;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.navBar a:hover {
+    color: #8CCCC5;
+    text-decoration: none;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.navBar a:active {
+    color: #8CCCC5;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* SECTION 1 */
+.Section1{
+    padding: 0px 24px 0px 24px;
+    display: flex;  
+    justify-content: center;
+    background-color: #CCECE5;
+}
+
+.logoMonograma{
+    margin-left: 24px;
+
+}
+.logoMonograma img{
+    width: 100%;
+}
+
+
+
+/* SECTION 2 */
+
+.Section2{
+    margin-top: 40px;
+    margin-bottom: 120px;
+    padding: 36px 0 36px 0;
+    display: flex;
+
+}
+
+.infoAbout{
+    margin-left: 136px;
+    margin-right: 100px;
+    width: 40%;
+}
+
+.infoAbout img{
+    margin-left: 54px;
+    margin-bottom: 19px;
+}
+
+.infoAbout h1{
+    color: #686868;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 56px;
+}
+
+.infoAbout h4 {
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 120px;
+}
+
+.infoAbout h2{
+    color: #51A9A0;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 80px;
+}
+
+.imgsAbout{
+    margin: 0 32px 0 32px;
+    height: 740px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* FOOTER BUTTON */
+
+.footerAbout{
+    background-color: #CCECE5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addresContainer{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.emailInfo{
+    display: flex;
+    align-items: center;
+}
+
+.emailInfo img{
+    padding-right: 50px;
+}
+
+.emailInfo a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.phoneInfo{
+    display: flex;
+    align-items: center;
+}
+
+.numbersInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.phoneInfo img{
+    padding-right: 50px;
+}
+
+.phoneInfo a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}

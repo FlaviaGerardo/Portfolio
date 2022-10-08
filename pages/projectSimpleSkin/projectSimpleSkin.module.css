@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+  /* HEADER */
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  padding-left: 136px;
+  padding-right: 175px;
+}
+
+.logo{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logoHeader{
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #51A9A0;
+}
+
+
+.navBar ul {
+    gap: 88px;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar a {
+    color: rgba(104, 104, 104, 1);
+    ;
+    text-decoration: none;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.navBar a:hover {
+    color: #8CCCC5;
+    text-decoration: none;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.navBar a:active {
+    color: #8CCCC5;
+    font-size: 24px;
+    line-height: 32px;
+}
+/* SECTION 1 BRAND */
+
+.Section1{
+    background: #8CCCC5;
+    padding: 36px 0 36px 0;
+    display: flex;
+
+}
+
+.infoSimplySkin{
+    margin-left: 136px;
+    width: 40%;
+}
+
+.infoSimplySkin img{
+    margin-bottom: 19px;
+}
+
+.flexInfos{
+    display: flex;
+    gap: 148px;
+}
+
+.projetAndResponse h4{
+    margin-top: 50px;
+}
+
+.projetAndResponse span{
+    font-family: 'Mukta Mahee';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+
+.summaryInfo h4{
+    margin-top: 50px;
+}
+
+.summaryInfo span{
+    font-family: 'Mukta Mahee';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+
+.infoSimplySkin h4 {
+    color: #686868;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 14px;
+}
+
+.imgsSimplySkin{
+    margin: 0 32px 0 32px;
+    width: 827px;
+    height: 507px;
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION 2 Briefing */
+
+.Section2{
+    padding: 36px 0 36px 0;
+    display: flex;
+
+}
+
+.infoBriefing{
+    width: 40%;
+    margin: 81px 0 0 136px;
+}
+
+.infoBriefing h2{
+    color: #686868;
+    counter-reset: #686868;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 56px;
+}
+
+.infoBriefing h4 {
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.imgsBriefing{
+    padding-left: 50px;
+    margin: 81px 32px 0 32px;
+    width: 732px;
+    height: 344px;
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION 3 Graphs */
+
+.Section3{
+    padding: 36px 0 36px 0;
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+}
+
+.Section3 h2{
+    margin: 81px 0 0 136px;
+    color: #686868;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 56px;
+}
+
+.infoGraphs{
+    width: 40%;
+    margin: 81px 0 0 136px;
+}
+
+.contentInfos{ display: flex;}
+
+.contentInfos h2{
+    color: #686868;
+    counter-reset: #686868;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 56px;
+}
+
+.infoGraphs h4 {
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.imgsGraphs{
+    padding-left: 50px;
+    margin: 0 32px 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 56px
+}
+
+.imgsGraphs span{
+    width: 160px;
+    height: 402px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px
+}
+.imgsGraphs p{
+    width: 160px;
+    height: 402px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px
+}
+
+/* SECTION 4 Journey */
+
+.Section4{
+    padding: 36px 0 36px 0;
+    display: flex;
+    background-color: #CCECE5;
+}
+
+.infoJourney{
+    width: 40%;
+    margin: 81px 0 0 136px;
+}
+
+.infoJourney h2{
+    color: #686868;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+
+.imgsJourney{
+    padding-left: 50px;
+    margin: 0 32px 0 32px;
+
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION 5 Ideas */
+
+.Section5{
+    padding: 36px 0 36px 0;
+    display: flex;
+
+}
+
+.infoIdeas{
+    width: 40%;
+    margin: 81px 0 0 136px;
+}
+
+.infoIdeas h2{
+    color: #686868;
+    counter-reset: #686868;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 56px;
+}
+
+.infoIdeas h4{
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 134px;
+}
+
+.infoIdeas b {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.imgsIdeas{
+    padding-left: 140px;
+    margin: 81px 32px 0 164px;
+    height: 656px;
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION 6 Ideas */
+
+.Section6{
+    padding: 36px 0 36px 0;
+}
+
+.Section6 h2{
+    margin: 81px 0 0 136px;
+    color: #686868;
+    counter-reset: #686868;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 56px;
+}
+.infoMoodBoard{
+    display: flex;
+    justify-content: center;
+}
+
+.imgsMoodBoard{
+    padding-left: 50px;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION 7 TheProject */
+
+.Section7{
+    padding: 36px 0 36px 0;
+}
+
+.Section7 h2{
+    margin: 81px 0 0 136px;
+    color: #686868;
+    counter-reset: #686868;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 56px;
+}
+.infoTheProject{
+    display: flex;
+    justify-content: center;
+}
+
+.imgsTheProject{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding-left: 50px;
+    height: 950px;
+}
+

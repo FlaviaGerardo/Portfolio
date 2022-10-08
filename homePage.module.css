@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+  /* HEADER */
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  padding-left: 136px;
+  padding-right: 175px;
+}
+
+.logo{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logoHeader{
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #51A9A0;
+}
+
+
+.navBar ul {
+    gap: 88px;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar a {
+    color: rgba(104, 104, 104, 1);
+    ;
+    text-decoration: none;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.navBar a:hover {
+    color: #8CCCC5;
+    text-decoration: none;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.navBar a:active {
+    color: #8CCCC5;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* SECTION 1 */
+.Section1{
+    margin-top: 98px;
+    padding: 0px 24px 0px 24px;
+    display: flex;  
+}
+
+.logoMonograma{
+    margin-left: 24px;
+
+}
+.logoMonograma img{
+    width: 100%;
+}
+
+.WelcomeText{
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.WelcomeText h4{
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.WelcomeText h1 {
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.textLogo{
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    width: 56%;
+}
+
+/* SECTION 2 */
+
+.Section2{
+    margin-top: 40px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ArrowText {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ArrowText h1{
+    width: 40%;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+
+.ArrowUp{
+    display: flex;
+    height: 80px;
+    padding: 10px 0 32px 0;
+}
+.ArrowDown{
+    display: flex;
+    height: 80px;
+    padding: 32px 0 10px 0;
+}
+
+.borderArrow{
+    border-right: 2.5px solid black;
+}
+
+/* SECTION 3 */
+
+.Section3{
+    background: #8CCCC5;
+    margin-top: 97px;
+    padding: 36px 0 36px 0;
+    display: flex;
+
+}
+
+.infoSimplySkin{
+    margin-left: 136px;
+    width: 40%;
+}
+
+.infoSimplySkin img{
+    margin-left: 54px;
+    margin-bottom: 19px;
+}
+
+.infoSimplySkin h4 {
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 90%;
+}
+
+.infoSimplySkin h2{
+    margin: 14px 0 16px 0;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.imgsSimplySkin{
+    margin: 0 32px 0 32px;
+    width: 827px;
+    height: 507px;
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonSimplySkin{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-top: 100px;
+    padding: 16px 16px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #fff;
+    color:#121212
+}
+
+.ButtonSimplySkin:hover{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-top: 100px;
+    padding: 16px 16px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #686868;
+    color:#FFFFFF
+}
+
+.ButtonSimplySkin:active{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-top: 100px;
+    padding: 16px 16px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #51A9A0;
+    color:#121212
+}
+
+/* SECTION 4 */
+
+.Section4{
+    background: #CCECE5;
+    margin-top: 32px;
+    padding: 36px 0 36px 0;
+    display: flex;
+}
+
+.infoPachamama{
+    margin-left: 136px;
+    width: 40%;
+}
+
+.infoPachamama img{
+    margin-left: 54px;
+    margin-bottom: 19px;
+}
+
+.infoPachamama h4 {
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 67%;
+}
+
+.infoPachamama h2{
+    margin: 14px 0 16px 0;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.imgsPachamama{
+    margin: 0 32px 0 32px;
+    width: 827px;
+    height: 507px;
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonPachamama{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-top: 150px;
+    padding: 16px 16px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #fff;
+    color:#121212
+}
+
+.ButtonPachamama:hover{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-top: 150px;
+    padding: 16px 16px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #686868;
+    color:#FFFFFF
+}
+
+.ButtonPachamama:active{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-top: 150px;
+    padding: 16px 16px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #51A9A0;
+    color:#121212
+}
+
+/* SECTION 5 */
+
+.Section5{
+    background: #C5E3CF;
+    margin-top: 32px;
+    padding-top: 31px;
+    display: flex;
+    padding-bottom: 36px;
+}
+
+.infoThomYork{
+    margin-left: 136px;
+    width: 40%;
+}
+
+.infoThomYork img{
+    margin-left: 54px;
+    margin-bottom: 19px;
+    
+}
+
+.infoThomYork h4 {
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 67%;
+}
+
+.infoThomYork h2{
+    margin: 14px 0 16px 0;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.imgsThomYork{
+    width: 827px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ButtonThomYork{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-top: 120px;
+    padding: 16px 16px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #fff;
+    color:#121212
+}
+
+.ButtonThomYork:hover{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-top: 120px;
+    padding: 16px 16px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #686868;
+    color:#FFFFFF
+}
+
+.ButtonThomYork:active{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-top: 120px;
+    padding: 16px 16px;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #51A9A0;
+    color:#121212
+}
+
+/* FOOTER BUTTON */
+
+.footerButton{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerButton button{
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    gap: 16px;
+    width: 252px;
+    height: 64px;
+    color: #FFFFFF;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    background-color: #51A9A0;
+
+}
+
+.footerButton button:hover{
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    gap: 16px;
+    width: 252px;
+    height: 64px;
+    color: #51A9A0;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    background-color: #CCECE5;
+
+}
+
+.footerButton button:active{
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    gap: 16px;
+    width: 252px;
+    height: 64px;
+    color: #121212;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    background-color: #51A9A0;
+
+}
